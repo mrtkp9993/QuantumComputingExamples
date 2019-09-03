@@ -14,7 +14,6 @@
 from qiskit import IBMQ, BasicAer
 from qiskit.providers.ibmq import least_busy
 from qiskit import QuantumCircuit, ClassicalRegister, QuantumRegister, execute
-from qiskit.tools.visualization import plot_histogram
 from qiskit.tools.monitor import job_monitor
 
 qr = QuantumRegister(2)  # Initialize two qubits
