@@ -7,6 +7,9 @@
     The goal is to decide whether f is constant or balanced by making as few function evaluations 
     as possible. Classically, it requires 2^{n-1}+1 function evaluations in the worst case. Using 
     the Deutsch-Jozsa algorithm, the question can be answered with just one function evaluation.
+    
+    Deutsch's algorithm is the simpler case of Deutsch-Jozsa Algorithm which has a function f(x) 
+    which takes 1-bit as input.
 
     Source: https://github.com/Qiskit/ibmqx-user-guides/blob/master/rst/full-user-guide/004-Quantum_Algorithms/080-Deutsch-Jozsa_Algorithm.rst
 
