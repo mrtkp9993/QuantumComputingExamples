@@ -1,4 +1,4 @@
-# QiskitExamples
+# Quantum Computing Examples
 Quantum computing examples with Qiskit.
 
 ## Examples
