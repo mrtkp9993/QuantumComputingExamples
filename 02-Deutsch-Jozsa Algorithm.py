@@ -59,4 +59,4 @@ answer = results.get_counts()
 print("Simulator result")
 for c2c1c0 in answer:
     print(f"{c2c1c0} is observed in {answer[c2c1c0]} times")
-# Our oracle is a balanced function
+# If we measure |0>^n, then f is constant, other results tell us that f is balanced

@@ -68,3 +68,4 @@ results = execute(circuit, backend=backend, shots=shots).result()
 answer = results.get_counts()
 print("Simulator result")
 print(answer)
+# If we measure |0>^n, then f is constant, other results tell us that f is balanced
