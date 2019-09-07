@@ -1,5 +1,5 @@
 # Quantum Computing Examples
-Quantum computing examples with Qiskit.
+Quantum computing examples with QISKit.
 
 ## Examples
 
