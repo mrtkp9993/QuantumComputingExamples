@@ -1,5 +1,5 @@
 '''
-    Bernstein-Vazirani Algorithm
+    Simon's algorithm
 
     We know that an oracle function f which has period a:
 
