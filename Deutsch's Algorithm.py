@@ -25,17 +25,25 @@ circuit = QuantumCircuit(qr, cr)
 
 circuit.x(qr[1])  # initialize the ancilla qubit in the |1> state
 
+circuit.barrier()
+
 # First step of quantum algorithms - Prepare the superposition
 # For superposition, we apply the Hadamard gate on both qubits
 circuit.h(qr[0])
 circuit.h(qr[1])
 
+circuit.barrier()
+
 # Oracle function
 circuit.cx(qr[0], qr[1])
+
+circuit.barrier()
 
 # Apply Hadamard gates after querying oracle function
 circuit.h(qr[0])
 circuit.h(qr[1])
+
+circuit.barrier()
 
 # Measure qubit
 circuit.measure(qr[0], cr[0])

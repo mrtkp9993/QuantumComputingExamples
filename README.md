@@ -21,6 +21,6 @@ Quantum computing examples with Qiskit.
 
 ![Bernstein-Vazirani Algorithm](./circuit_diagrams/03_bernstein_vazirani.png)
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NDI4OTY5OF19
--->
+**Simon's Algorithm**
+
+> Problem. For given an oracle function f : {0, 1}^n -> {0, 1}^n which has period `a` like following: ∃!a != 0: ∀x f(x) = f(y) => y = x ⊕ a. Determine a.

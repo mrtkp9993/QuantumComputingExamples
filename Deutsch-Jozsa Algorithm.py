@@ -20,11 +20,15 @@ circuit = QuantumCircuit(qr, cr)
 
 circuit.x(qr[2])  # initialize the ancilla qubit in the |1> state
 
+circuit.barrier()
+
 # First step of quantum algorithms - Prepare the superposition
 # For superposition, we apply the Hadamard gate on all qubits
 circuit.h(qr[0])
 circuit.h(qr[1])
 circuit.h(qr[2])
+
+circuit.barrier()
 
 # Oracle function
 circuit.h(qr[0])
@@ -32,14 +36,20 @@ circuit.cx(qr[1], qr[0])
 circuit.z(qr[2])
 circuit.h(qr[0])
 
+circuit.barrier()
+
 # Apply Hadamard gates after querying oracle function
 circuit.h(qr[0])
 circuit.h(qr[1])
 circuit.h(qr[2])
 
+circuit.barrier()
+
 # Measure qubit
 circuit.measure(qr[0], cr[0])
 circuit.measure(qr[1], cr[1])
+
+circuit.barrier()
 
 # Run our circuit with local simulator
 backend = BasicAer.get_backend('qasm_simulator')
