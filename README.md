@@ -23,4 +23,6 @@ Quantum computing examples with Qiskit.
 
 **Simon's Algorithm**
 
-> Problem. For given an oracle function f : {0, 1}^n -> {0, 1}^n which has period `a` like following: ∃!a != 0: ∀x f(x) = f(y) => y = x ⊕ a. Determine a.
+> Problem. For given an oracle function f : {0, 1}^n -> {0, 1}^n which has period `a`: ∃!a != 0: ∀x f(x) = f(y) => y = x ⊕ a. Determine a.
+
+![Simon's Algorithm](./circuit_diagrams/04_simon.png)
