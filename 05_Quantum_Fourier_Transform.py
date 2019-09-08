@@ -7,6 +7,8 @@
     transform over the amplitudes of a wave function. It is part of many quantum algorithms, 
     most notably Shor's factoring algorithm and quantum phase estimation.
 
+    Resource: https://quantum-computing.ibm.com/support/guides/quantum-algorithms-with-qiskit?page=5cbc5e2d74a4010049e1a2b0#qiskit-implementation
+
 '''
 import math
 
