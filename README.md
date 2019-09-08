@@ -32,3 +32,9 @@ Scheme for `n=3`:
 Scheme for `n=2`:
 
 ![Simon's Algorithm](./circuit_diagrams/04_simon.png)
+
+**Quantum Fourier Transform (QFT)**
+
+Scheme for `n=3`:
+
+![Quantum Fourier Transform](./circuit_diagrams/05_qft.png)
