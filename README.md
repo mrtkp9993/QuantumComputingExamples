@@ -39,3 +39,9 @@ Scheme for `n=2`:
 Scheme for `n=3`:
 
 ![Quantum Fourier Transform](./circuit_diagrams/05_qft.png)
+
+### Superdense Coding
+
+> Task. Transmit two bits of classical information between Alice and Bob using only one qubit.
+
+![Superdense Coding](./circuit_diagrams/e1_superdense_coding.png)
