@@ -45,3 +45,19 @@ Scheme for `n=3`:
 > Task. Transmit two bits of classical information between Alice and Bob using only one qubit.
 
 ![Superdense Coding](./circuit_diagrams/e1_superdense_coding.png)
+
+### Quantum Teleportation
+
+> Task. Alice would like to send Bob a qubit that is in some unknown state.
+
+![Quantum Teleportation](./circuit_diagrams/e2_quantum_teleportation.png)
+
+## References
+
+* [Jonahtan Hui, Quantum Computing Series, Medium](https://medium.com/@jonathan_hui/qc-quantum-computing-series-10ddd7977abd)
+
+* [Qiskit, Medium](https://medium.com/qiskit)
+
+* [Qiskit, GitHub](https://github.com/Qiskit/qiskit-terra)
+
+* [An Introduction to Quantum Computing, Kaye, ‎Laflamme, Mosca](https://books.google.com.tr/books/about/An_Introduction_to_Quantum_Computing.html?id=8jwVDAAAQBAJ&source=kp_book_description&redir_esc=y)
