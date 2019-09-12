@@ -19,3 +19,11 @@ def qft(circuit, qr, n):
         for k in range(j+1, n):
             circuit.cu1(math.pi / float(2**(k-j)), qr[k], qr[j])
         circuit.barrier()
+
+
+def qft_dagger(circuit, q, n):
+    for j in range(n):
+        k = (n-1) - j
+        for m in range(k):
+            circuit.cu1(-math.pi/float(2**(k-m)), q[k], q[m])
+        circuit.h(q[k])

@@ -6,7 +6,7 @@ Quantum computing examples with QISKit.
 
 ### Deutsch's Algorithm
 
-> Problem. For given an oracle function f : {0, 1} -> {0, 1}, determine f is balanced or constant. 
+> Problem. For given an oracle function f : {0, 1} -> {0, 1}, determine f is balanced or constant.
 
 ![Deutsch's Algorithm](./circuit_diagrams/01_deutsch.png)
 
@@ -52,6 +52,12 @@ Scheme for `n=3`:
 
 ![Quantum Teleportation](./circuit_diagrams/e2_quantum_teleportation.png)
 
+### Quantum Phase Estimation
+
+> Problem. Given an unitary operator U, estimate θ in U|ψ>=exp(2πiθ)|ψ>.
+
+![Quantum Phase Estimation](./circuit_diagrams/e3_quantum_phase_estimation.png)
+
 ## References
 
 * [Jonahtan Hui, Quantum Computing Series, Medium](https://medium.com/@jonathan_hui/qc-quantum-computing-series-10ddd7977abd)
@@ -61,3 +67,5 @@ Scheme for `n=3`:
 * [Qiskit, GitHub](https://github.com/Qiskit/qiskit-terra)
 
 * [An Introduction to Quantum Computing, Kaye, ‎Laflamme, Mosca](https://books.google.com.tr/books/about/An_Introduction_to_Quantum_Computing.html?id=8jwVDAAAQBAJ&source=kp_book_description&redir_esc=y)
+
+* [Learn Quantum Computation using Qiskit](https://community.qiskit.org/textbook/)
