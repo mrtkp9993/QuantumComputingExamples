@@ -58,6 +58,14 @@ Scheme for `n=3`:
 
 ![Quantum Phase Estimation](./circuit_diagrams/e3_quantum_phase_estimation.png)
 
+### Grover's Algorithm
+
+> Problem. For given an oracle function f : {0, 1}^n -> {0, 1}^n, ∃! ω : f(ω) = a, find ω.
+
+Scheme for `n=3`:
+
+![Grover's Algorithm](./circuit_diagrams/06_grovers_algorithm.png)
+
 ## References
 
 * [Jonahtan Hui, Quantum Computing Series, Medium](https://medium.com/@jonathan_hui/qc-quantum-computing-series-10ddd7977abd)
