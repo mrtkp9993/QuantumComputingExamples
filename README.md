@@ -66,14 +66,22 @@ Scheme for `n=3`:
 
 ![Grover's Algorithm](./circuit_diagrams/06_grovers_algorithm.png)
 
+### Shor's Algorithm
+
+> Problem. Shor's algorithm is a quantum computer algorithm for integer factorization. Informally, it solves the following problem: Given an integer N, find its prime factors.
+
+Scheme for find the period `r` for `f(x) = 2^x mod 15`:
+
+![Shor's Algorithm](./circuit_diagrams/07_shors_algorithm.png)
+
 ## References
 
-* [Jonahtan Hui, Quantum Computing Series, Medium](https://medium.com/@jonathan_hui/qc-quantum-computing-series-10ddd7977abd)
+- [Jonahtan Hui, Quantum Computing Series, Medium](https://medium.com/@jonathan_hui/qc-quantum-computing-series-10ddd7977abd)
 
-* [Qiskit, Medium](https://medium.com/qiskit)
+- [Qiskit, Medium](https://medium.com/qiskit)
 
-* [Qiskit, GitHub](https://github.com/Qiskit/qiskit-terra)
+- [Qiskit, GitHub](https://github.com/Qiskit/qiskit-terra)
 
-* [An Introduction to Quantum Computing, Kaye, ‎Laflamme, Mosca](https://books.google.com.tr/books/about/An_Introduction_to_Quantum_Computing.html?id=8jwVDAAAQBAJ&source=kp_book_description&redir_esc=y)
+- [An Introduction to Quantum Computing, Kaye, ‎Laflamme, Mosca](https://books.google.com.tr/books/about/An_Introduction_to_Quantum_Computing.html?id=8jwVDAAAQBAJ&source=kp_book_description&redir_esc=y)
 
-* [Learn Quantum Computation using Qiskit](https://community.qiskit.org/textbook/)
+- [Learn Quantum Computation using Qiskit](https://community.qiskit.org/textbook/)
