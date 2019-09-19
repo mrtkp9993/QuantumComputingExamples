@@ -44,19 +44,19 @@ Scheme for `n=3`:
 
 > Task. Transmit two bits of classical information between Alice and Bob using only one qubit.
 
-![Superdense Coding](./circuit_diagrams/e1_superdense_coding.png)
+![Superdense Coding](./circuit_diagrams/a1_superdense_coding.png)
 
 ### Quantum Teleportation
 
 > Task. Alice would like to send Bob a qubit that is in some unknown state.
 
-![Quantum Teleportation](./circuit_diagrams/e2_quantum_teleportation.png)
+![Quantum Teleportation](./circuit_diagrams/a2_quantum_teleportation.png)
 
 ### Quantum Phase Estimation
 
 > Problem. Given an unitary operator U, estimate θ in U|ψ>=exp(2πiθ)|ψ>.
 
-![Quantum Phase Estimation](./circuit_diagrams/e3_quantum_phase_estimation.png)
+![Quantum Phase Estimation](./circuit_diagrams/a3_quantum_phase_estimation.png)
 
 ### Grover's Algorithm
 
