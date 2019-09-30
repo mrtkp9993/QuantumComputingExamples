@@ -78,7 +78,7 @@ Scheme for find the period `r` for `f(x) = 2^x mod 15`:
 
 > Task. For given two unknown quantum states, determine how much them differs.
 
-![Swap test](./circuit_diagrams/c1_swap_test.png)
+![Swap test](./circuit_diagrams/c1_Swap_test.png)
 
 ## References
 
