@@ -1,5 +1,8 @@
 # Quantum Computing Examples
 
+[![DOI](https://zenodo.org/badge/205904386.svg)](https://zenodo.org/badge/latestdoi/205904386)
+
+
 Quantum computing examples with QISKit.
 
 ## Examples
